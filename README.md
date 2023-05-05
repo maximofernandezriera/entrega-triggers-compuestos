@@ -1,8 +1,9 @@
 # Triggers compuestos en plpgsql
 
-En PostgreSQL, un trigger de tipo compuesto es un tipo especial de trigger que se define en una tabla y dispara la ejecución de una función compuesta que se compone de varias subfunciones. La función compuesta se ejecutará cuando se cumpla una condición específica en la tabla, como una actualización, inserción o eliminación de registros. 
+### Un trigger de tipo compuesto es un tipo especial de trigger que se define en una tabla y dispara la ejecución de una función compuesta que se ### compone de varias subfunciones. La función compuesta se ejecutará cuando se cumpla una condición específica en la tabla, como una
+### actualización, inserción o eliminación de registros. 
 
-Aquí hay un ejemplo paso a paso de cómo crear un trigger compuesto en PostgreSQL:
+## Un primer ejemplo
 
 1. Primero, debemos crear una función compuesta que se ejecutará cuando se active el trigger. Supongamos que queremos crear una función compuesta que actualice dos campos en la tabla "employees" cuando se inserte un nuevo registro. Para ello, creamos una función compuesta como esta:
 
