@@ -45,3 +45,5 @@ El trigger compuesto se activará y ejecutará la función compuesta "update_emp
 ```
 SELECT * FROM employees WHERE id = 1;
 ```
+
+#### Tenéis el script de la bd necesario en este mismo repositorio.
